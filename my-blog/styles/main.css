@@ -13,8 +13,8 @@ a, a:visited {
 body {
   color: whitesmoke;
   background: rgb(26, 26, 26);
-  list-style: none;
   padding: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Home Page */
