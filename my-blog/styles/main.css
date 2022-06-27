@@ -106,3 +106,8 @@ body {
   font-weight: 300;
   text-transform: capitalize;
 }
+
+.about-description {
+  margin-top:1.5vw;
+  font-size: 1.5vw;
+}
