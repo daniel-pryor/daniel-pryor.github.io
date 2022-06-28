@@ -200,3 +200,39 @@ body {
   background-image: url("../blog-posts/post-1/me-on-boat.JPG");
   margin-bottom: 10vw;
 }
+
+/* ----- Main Heading ----- */
+
+.blog-page-content {
+  
+  margin: auto;
+}
+
+.blog-page-heading {
+  text-align: center;
+}
+
+.blog-page-heading h1 {
+  font-size: 8vw;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.blog-page-heading h2 {
+  margin-top: 1vw;
+  font-size: 3vw;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.blog-page-heading h3 {
+  margin-top: 3vw;
+  font-size: 1vw;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+
