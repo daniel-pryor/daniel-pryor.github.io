@@ -297,6 +297,16 @@ body {
   padding-bottom: 10px;
 }
 
+.horizontal-line {
+  margin-bottom: 50px;
+}
+
+.back-to-all-posts a {
+ font-weight: 300;
+ text-transform: capitalize;
+
+}
+
 
 
 /* -------------------- Responsive Media Queries -----------------------  */
