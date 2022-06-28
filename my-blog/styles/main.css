@@ -116,6 +116,25 @@ body {
   font-size: 1.5vw;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a {
+   margin: 40px;
+}
+
+.instagram-icon {
+  width: 50px;
+ 
+} 
+
+.linkedin-icon {
+  width: 43px;
+}
+
 /* ----- Banner 2 ----- */
 
 .banner-2 {
@@ -125,7 +144,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 60%;
-  background-image: url("../images/post-1/me.jpeg");
+  background-image: url("../images/me.jpeg");
   margin-bottom: 10vw;
 }
 
@@ -295,6 +314,7 @@ body {
 .blog-page-gallery img {
   width: 30vw;
   padding-bottom: 10px;
+  object-fit: cover;
 }
 
 .horizontal-line {
@@ -359,8 +379,14 @@ body {
 /* --- 768px and below --- */
 
 @media only screen and (max-width: 768px) {
+
+  .nav-link-list {
+    font-size: 18px;
+  }
+
   .main-heading {
     font-size: 12.1vw;
+    margin-left: -.1em;
   }
 
   .blog-post-container {
