@@ -203,10 +203,6 @@ body {
 
 /* ----- Main Heading ----- */
 
-.blog-page-content {
-  
-  margin: auto;
-}
 
 .blog-page-heading {
   text-align: center;
@@ -235,4 +231,110 @@ body {
   text-transform: uppercase;
 }
 
+/* ----- Blog Page Content ----- */
 
+.blog-page-content-container {
+  margin-top: 4vw;
+  width: 100%;
+  display: flex;
+}
+
+.blog-page-content {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.blog-page-content h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.blog-page-content p {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: rgba(245, 245, 245, 0.804);
+  line-height: 1.5;
+}
+
+.blog-page-image-1 {
+  width: 50%;
+}
+
+.blog-page-image-1 img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  
+}
+
+.blog-page-image-1 h4 {
+  margin-top: 2vw;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.blog-page-image-1 p {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: rgba(245, 245, 245, 0.804);
+  line-height: 1.5;
+  text-align: right;
+}
+
+/* ----- Blog Page Gallery ----- */
+
+.blog-page-gallery {
+  margin-top: 7vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.blog-page-gallery img {
+  width: 30vw;
+  padding-bottom: 10px;
+}
+
+
+
+/* -------------------- Responsive Media Queries -----------------------  */
+
+/* ----- Home Page ----- */
+
+/* --- 1200px and below --- */
+
+@media only screen and (max-width: 1200px) {
+  
+  .main-heading {
+    font-size: 12.3vw;
+  }
+  
+  .blog-post-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .blog-post-image {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .about-description {
+    font-size: 18px;
+  }
+
+  .banner-2 {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+  
