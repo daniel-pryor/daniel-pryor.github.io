@@ -261,10 +261,16 @@ body {
   font-weight: 400;
 }
 
+.blog-page-content h5 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
 .blog-page-content p {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-weight: 300;
   color: rgba(245, 245, 245, 0.804);
   line-height: 1.5;
@@ -291,7 +297,7 @@ body {
 .blog-page-image-1 p {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-weight: 300;
   color: rgba(245, 245, 245, 0.804);
   line-height: 1.5;
