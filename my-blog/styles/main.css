@@ -111,3 +111,56 @@ body {
   margin-top:1.5vw;
   font-size: 1.5vw;
 }
+
+/* ----- Banner 2 ----- */
+
+.banner-2 {
+  margin-top: 10vw;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-image: url("../images/post-1/me.jpeg");
+  
+}
+
+/* ----- All Blog Posts ----- */
+
+.all-blog-posts-container {
+  margin-top: 8vw;
+  text-align: left;
+
+}
+
+.all-blog-posts-heading {
+  font-size: 2vw;
+  font-weight: 400;
+  color: rgba(245, 245, 245, 0.802);
+}
+
+.all-blog-posts-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  margin-top: 1.5vw;
+}
+
+.all-blog-posts-item {
+  font-size: 1.8vw;
+  font-weight: 200;
+  letter-spacing: 2;
+  margin: .3vw;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.all-blog-posts-item-heading {
+  text-align: right;
+  
+}
+
+.all-blog-posts-item span {
+  margin-right: .5vw;
+
+}
