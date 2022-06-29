@@ -70,11 +70,12 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap:30px;
   width: 100%;
-  margin-top: 16vw;
+  margin-top: 11vw;
   align-items: flex-end;
 }
 
 .blog-post {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
