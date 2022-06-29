@@ -478,15 +478,16 @@ body {
 @media only screen and (max-width: 768px) {
 
   .blog-page-banner {
-    height: 40vh;
+    height: 30vh;
   }
 
   .blog-page-heading h1 {
     font-size: 35px;
+    margin-bottom: 20px;
   }
 
   .blog-page-heading h2 {
-    margin: 10px;
+    margin-bottom: 20px;
     font-size: 22px;
   }
 
@@ -494,6 +495,7 @@ body {
   .blog-page-content-container {
     display: block;
     text-align: center;
+    margin-top: 50px;
   }
 
   .blog-page-content {
