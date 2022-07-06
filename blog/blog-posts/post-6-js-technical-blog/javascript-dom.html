@@ -5,16 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../styles/main.css">
-  <title>Add Title</title>
+  <title>Javascript Fundamentals</title>
 </head>
 <body id="blog-top">
       <!-- Navigation -->
       <header>
         <div class="nav-bar">
           <ul class="nav-link-list">
-            <a class="nav-link" href="../../index.html"><li>Home</li></a>
-            <a class="nav-link" href="/blog/index.html#all-blog-posts"><li>Blog</li></a>
-            <a class="nav-link" href="../../index.html#about"><li>About</li></a>
+            <a class="nav-link" href="/index.html"><li>Home</li></a>
+            <a class="nav-link" href="/index.html#all-blog-posts"><li>Blog</li></a>
+            <a class="nav-link" href="/index.html#about"><li>About</li></a>
           </ul>
         </div>
       </header>
@@ -23,14 +23,14 @@
 
       <!-- Banner -->
 
-      <img class="blog-page-banner" src="" alt="">
+      <img class="blog-page-banner" src="/blog/blog-posts/post-6-js-technical-blog/js.png" alt="the word Javascript with code numbers in the background">
       <main>
       <!-- Heading -->
 
         <div class="blog-page-heading">
-          <h1>H1 Title</h1>
-          <h2>H2 Subtitle</h2>
-          <h3>date long form</h3>
+          <h1>Intro to Javascript</h1>
+          <h2>What is the DOM and What are Dev tools?</h2>
+          <h3>7 July 2022</h3>
         </div>
 
 
@@ -38,37 +38,63 @@
     <div class="blog-page-content-container">
         <div class="blog-page-content">
 
-          <h4>h4 heading</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+          <h4>What is Javascript and how does it relate to HTML & CSS?</h4>
+          <p>Imagine its your friends birthday and you have decided you want to make them a cake. Think of HTML as the cake. But without icing, no flavours, no colours, just a cake. Boring huh. Your best guess is that your friend isn't going to be that stoked with a flavourless, colourless cake on their birthday. CSS is your flavour, colour and decorations. Add those and you've got a pretty good looking cake. But your friend is pretty fussy. You know that this still won't cut it. Here's where Javascipt(JS) comes to save the day(birthday). With a sprinkle of JS the cake is now singing happy birthday to your friend, when they blow out the candles, the candles relight themselves. You realise you got your friends age wrong on the cake and the cake has now corrected the age for you! Javascript does all the interactions!!</p>
 
-          <h4>h4 heading</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <h4>Control flow & Loops</h4>
+          <p>Control flow is the order in which your computer executes the code/statements in your script or js file.
+            The code will run in order from the first line to the last line unless told otherwise. And otherwise happens a lot. Statements such as Loops and Conditionals will change and control the flow. Think of it like you're getting ready to go to work. And you can't leave without having a coffee. You would use an <span><code>if else</code></span> statement. <span><code>if</code></span> you have had your coffee - go to work. <span><code>else</code></span> - stay home. </p>
+            <p>Loops are similar, but you have the ability to run the code multiple times. Your shirt has 6 buttons on it. And you can't leave until 5 of them are done up. You would use a <span><code>for</code></span> loop. Using the for loop you would run the code such as - do up button - 5 times over.</p>
+          <h4>What is the DOM?</h4>
+          <button id="changeColor" onclick="changeColor()">Change colour</button>
+          
+          <p>Click the button above to see an example of the DOM in action. </p>
+          <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
+          <h4>Accessing data from Arrays and Objects</h4>
+          <p>You access an array element by referring to the index number: <pre>const cars = ["Saab", "Volvo", "BMW"];
+            let car = cars[0];</pre>
+            Note: Array indexes start with 0.
 
-          <h4>h4 heading</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            [0] is the first element. [1] is the second element.</p>
+          <p>Accessing data from ojects is done etiher by using .dot notation or brackets []. 
+            <pre>objectName.propertyName</pre>
+            <pre>objectName["propertyName"]</pre>
+          </p>
+     
 
         </div>
         <div class="blog-page-image-1">
-          <img src="" alt="">
+          <img src="/blog/blog-posts/post-6-js-technical-blog/Unicorn-Cake-The-Cake-Eating-Co-Christchurch.jpeg" alt="">
+          <h4>Functions</h4>
+          <p>Functions are one of the fundamental building blocks in JavaScript. A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it.</p> 
+          <p>See examples below</p>
 
-          <h4>h4 heading</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    
         </div>
+        
     </div>
 
-    <div class="blog-page-gallery">
+    <div class="blog-page-gallery" style="align-items: baseline;">
       <!-- Images -->
-
-      <!-- <img src="boys-barca.JPG" alt="me and friends putting skateboard together at a cafe in barcalona">
-      <img src="me-surfing.jpg" alt="me surfing aa wave in kaikoura shot from th water">
-      <img src="sunset.JPG" alt="orange sunset with goest in sillouete"> -->
+      <div class="gallery-image-container">
+         <img style="object-fit: contain;" src="/blog/blog-posts/post-6-js-technical-blog/object-access.png" alt="diagram of js">
+         <p>Object Declaration and Accessing</p>
+      </div>
+      <div class="gallery-image-container">
+        <img style="object-fit: contain;" src="/blog/blog-posts/post-6-js-technical-blog/array-access.png" alt="diagram of js">
+        <p>Array Declaration and Accessing</p>
+     </div>
+     <div class="gallery-image-container">
+      <img style="object-fit: contain;" src="/blog/blog-posts/post-6-js-technical-blog/function.png" alt="diagram of js">
+      <p>Function Declaration and Calling</p>
+   </div>
     </div>
   
 
     <hr class="horizontal-line">
     
     <div class="back-to-all-posts">
-      <a  href="../../index.html#all-blog-posts"><p>Back to all posts</p> </a>
+      <a  href="../../../index.html"><p>Back to all posts</p> </a>
     </div>
   
         
@@ -88,4 +114,27 @@
 
 
 </body>
+<script>
+
+  let colors = ['red', 'blue', 'green', 'yellow', 'pink']
+  let newColor;
+  
+  function getRandomColor() {
+    let colorIndex = getRandomInt(0, 4)
+    newColor = colors[colorIndex]
+    console.log(newColor)
+  }
+
+  function changeColor() {
+    getRandomColor()
+    document.getElementById('changeColor').style.backgroundColor = newColor 
+    console.log(newColor)
+  }
+
+  function getRandomInt(min, max) {
+  min = Math.ceil(min)
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min + 1)) + min
+}
+</script>
 </html>
