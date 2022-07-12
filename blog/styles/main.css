@@ -256,14 +256,14 @@ body {
 /* ----- Blog Page Content ----- */
 
 .blog-page-content-container {
-  margin-top: 4vw;
+  margin-top: 20px;
   width: 100%;
   display: flex;
 }
 
 .blog-page-content {
   width: 50%;
-  padding-right: 30px;  
+  padding: 20px;  
 
   margin-bottom: 2vw;
   font-size: 1.3vw;
@@ -298,6 +298,12 @@ code, pre {
   border-radius: 3px;
   border: 1px solid whitesmoke;
 
+}
+
+.iframe {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
 }
 
 
